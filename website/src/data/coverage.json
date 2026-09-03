@@ -1,0 +1,5369 @@
+{
+  "families": [
+    "maritime",
+    "rail",
+    "road",
+    "inland_waterway",
+    "intermodal_logistics",
+    "air_cargo",
+    "energy",
+    "digital",
+    "border_coordination",
+    "strategic_storage"
+  ],
+  "levels": [
+    {
+      "definition": "Can materially affect global flows.",
+      "id": "L1_global_structural"
+    },
+    {
+      "definition": "Shapes flows across a continent, basin or major economic system.",
+      "id": "L2_macro_regional_structural"
+    },
+    {
+      "definition": "Nationally located asset or system with significant international spillover.",
+      "id": "L3_strategic_connector"
+    }
+  ],
+  "matrix": {
+    "arctic_polar": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "caucasus_central_asia": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "central_africa": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "central_america_caribbean": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "china_east_asia": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "continental_mediterranean_europe": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "east_africa_horn": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "gulf_arabian_peninsula": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "japan_korean_peninsula": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "levant_anatolia": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "north_africa": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "north_america": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "northern_europe_atlantic": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "oceania_pacific": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "russia_northern_eurasia": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "south_america": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "south_asia": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "southeast_asia": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "southern_africa": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    },
+    "west_africa": {
+      "air_cargo": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "border_coordination": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "digital": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "energy": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "inland_waterway": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "intermodal_logistics": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "maritime": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "rail": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "road": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      },
+      "strategic_storage": {
+        "L1_global_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L2_macro_regional_structural": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        },
+        "L3_strategic_connector": {
+          "gaps": "",
+          "identified": 0,
+          "published": 0,
+          "reviewed": "",
+          "status": "none",
+          "validated": 0
+        }
+      }
+    }
+  },
+  "regions": [
+    {
+      "id": "north_america",
+      "name": "North America"
+    },
+    {
+      "id": "central_america_caribbean",
+      "name": "Central America and Caribbean"
+    },
+    {
+      "id": "south_america",
+      "name": "South America"
+    },
+    {
+      "id": "northern_europe_atlantic",
+      "name": "Northern Europe and Atlantic"
+    },
+    {
+      "id": "continental_mediterranean_europe",
+      "name": "Continental and Mediterranean Europe"
+    },
+    {
+      "id": "russia_northern_eurasia",
+      "name": "Russia and Northern Eurasia"
+    },
+    {
+      "id": "caucasus_central_asia",
+      "name": "Caucasus and Central Asia"
+    },
+    {
+      "id": "north_africa",
+      "name": "North Africa"
+    },
+    {
+      "id": "west_africa",
+      "name": "West Africa"
+    },
+    {
+      "id": "central_africa",
+      "name": "Central Africa"
+    },
+    {
+      "id": "east_africa_horn",
+      "name": "East Africa and Horn of Africa"
+    },
+    {
+      "id": "southern_africa",
+      "name": "Southern Africa"
+    },
+    {
+      "id": "gulf_arabian_peninsula",
+      "name": "Gulf and Arabian Peninsula"
+    },
+    {
+      "id": "levant_anatolia",
+      "name": "Levant and Anatolia"
+    },
+    {
+      "id": "south_asia",
+      "name": "South Asia"
+    },
+    {
+      "id": "southeast_asia",
+      "name": "Southeast Asia"
+    },
+    {
+      "id": "china_east_asia",
+      "name": "China and East Asia"
+    },
+    {
+      "id": "japan_korean_peninsula",
+      "name": "Japan and Korean Peninsula"
+    },
+    {
+      "id": "oceania_pacific",
+      "name": "Oceania and Pacific Islands"
+    },
+    {
+      "id": "arctic_polar",
+      "name": "Arctic and Polar spaces"
+    }
+  ],
+  "source": "templates/coverage_matrix.csv",
+  "statusCounts": {
+    "none": 600
+  },
+  "statuses": [
+    "none",
+    "initial",
+    "partial",
+    "substantial",
+    "mature"
+  ],
+  "totals": {
+    "cells": 600,
+    "identified": 0,
+    "published": 0,
+    "validated": 0
+  }
+}

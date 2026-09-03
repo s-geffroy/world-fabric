@@ -37,6 +37,8 @@ jobs:
         run: npm install --no-audit --no-fund
       - name: Sync canonical research docs
         run: python3 scripts/sync_docs.py
+      - name: Derive site data from canonical sources
+        run: python3 scripts/build_site_data.py
       - name: Build
         working-directory: website
         run: npm run build

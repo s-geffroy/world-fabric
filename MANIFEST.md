@@ -1,9 +1,15 @@
 # Package manifest
 
+Generated from the tracked tree. `website/docs/` and
+`website/src/data/` are derived from the canonical sources by
+`scripts/sync_docs.py` and `scripts/build_site_data.py`; both run in CI
+before the site is built.
+
 - `.github/workflows/deploy-pages.yml`
 - `.gitignore`
 - `AUDIT.md`
 - `LICENSE_PENDING.md`
+- `MANIFEST.md`
 - `README.md`
 - `START_HERE_FR.md`
 - `data/internal/.gitkeep`
@@ -31,7 +37,7 @@
 - `schemas/coverage-cell.schema.json`
 - `schemas/project-impact.schema.json`
 - `schemas/source-entry.schema.json`
-- `scripts/__pycache__/validate_records.cpython-313.pyc`
+- `scripts/build_site_data.py`
 - `scripts/sync_docs.py`
 - `scripts/validate_records.py`
 - `taxonomies/coverage_status.yaml`
@@ -70,7 +76,9 @@
 - `website/package.json`
 - `website/sidebars.ts`
 - `website/src/css/custom.css`
+- `website/src/data/coverage.json`
 - `website/src/pages/index.tsx`
 - `website/src/pages/model.tsx`
 - `website/src/pages/world.tsx`
+- `website/static/data/.gitkeep`
 - `website/tsconfig.json`

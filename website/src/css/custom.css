@@ -1,5 +1,77 @@
 :root {
   --ifm-color-primary: #243a34;
   --ifm-font-family-base: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  /* Echelle de couverture, cinq crans : elle doit se lire comme une
+     progression, pas comme cinq categories sans ordre. */
+  --wf-cov-none: #e4e4df;
+  --wf-cov-initial: #cadfd1;
+  --wf-cov-partial: #97c1a8;
+  --wf-cov-substantial: #559274;
+  --wf-cov-mature: #23604a;
+  --wf-rule: #dcdcd6;
+  --wf-muted: #5c635f;
+  --wf-panel: #f7f7f4;
 }
+
+[data-theme='dark'] {
+  --wf-cov-none: #2f3331;
+  --wf-cov-initial: #3a5546;
+  --wf-cov-partial: #4d7a61;
+  --wf-cov-substantial: #6aa684;
+  --wf-cov-mature: #93d2af;
+  --wf-rule: #3a3f3d;
+  --wf-muted: #a3aca7;
+  --wf-panel: #232725;
+}
+
 .hero--primary { --ifm-hero-background-color: #f5f5f2; --ifm-hero-text-color: #17201d; }
+[data-theme='dark'] .hero--primary { --ifm-hero-background-color: #1c211f; --ifm-hero-text-color: #eef1ef; }
+
+.wf-lead { font-size: 1.15rem; max-width: 48rem; }
+.wf-muted { color: var(--wf-muted); }
+
+/* Enonce cadre : la question de recherche, la regle de tracabilite. */
+.wf-statement {
+  border-left: 3px solid var(--ifm-color-primary);
+  padding: 0.25rem 0 0.25rem 1rem;
+  margin: 1.5rem 0;
+  font-size: 1.1rem;
+}
+
+.wf-panel {
+  background: var(--wf-panel);
+  border: 1px solid var(--wf-rule);
+  border-radius: 8px;
+  padding: 1.25rem;
+  height: 100%;
+}
+.wf-panel h3 { margin-top: 0; font-size: 1rem; letter-spacing: 0.02em; text-transform: uppercase; }
+.wf-panel p:last-child { margin-bottom: 0; }
+
+.wf-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); }
+
+.wf-chain { font-family: var(--ifm-font-family-monospace); font-size: 0.95rem; line-height: 2; }
+
+.wf-figure { display: flex; gap: 2rem; flex-wrap: wrap; margin: 1.5rem 0; }
+.wf-figure div { min-width: 7rem; }
+.wf-figure b { display: block; font-size: 2rem; line-height: 1.1; }
+
+/* La matrice deborde sur mobile : elle defile dans son cadre, la page non. */
+.wf-scroll { overflow-x: auto; border: 1px solid var(--wf-rule); border-radius: 8px; }
+.wf-matrix { border-collapse: collapse; font-size: 0.8rem; margin: 0; width: 100%; }
+.wf-matrix th, .wf-matrix td { border: 1px solid var(--wf-rule); padding: 0.35rem 0.5rem; text-align: left; }
+.wf-matrix thead th { position: sticky; top: 0; background: var(--wf-panel); white-space: nowrap; }
+.wf-matrix tbody th { white-space: nowrap; font-weight: 500; }
+.wf-cell { padding: 0.3rem !important; }
+.wf-levels { display: flex; gap: 2px; }
+.wf-dot { width: 12px; height: 12px; border-radius: 2px; display: inline-block; }
+
+.wf-none { background: var(--wf-cov-none); }
+.wf-initial { background: var(--wf-cov-initial); }
+.wf-partial { background: var(--wf-cov-partial); }
+.wf-substantial { background: var(--wf-cov-substantial); }
+.wf-mature { background: var(--wf-cov-mature); }
+
+.wf-legend { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 1rem 0; font-size: 0.85rem; }
+.wf-legend span { display: flex; align-items: center; gap: 0.4rem; }

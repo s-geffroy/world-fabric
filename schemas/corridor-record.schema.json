@@ -1,0 +1,446 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://world-fabric.example/schemas/corridor-record.schema.json",
+  "title": "World Fabric Corridor Canonical Record",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "record_version",
+    "metadata",
+    "identity",
+    "scope",
+    "overview",
+    "current_system_state",
+    "geographic_segments",
+    "functional_links",
+    "validation"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "record_version": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "last_reviewed",
+        "canonical_language"
+      ],
+      "properties": {
+        "last_reviewed": {
+          "type": "string",
+          "format": "date"
+        },
+        "canonical_language": {
+          "const": "en"
+        },
+        "dataset_snapshot": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "identity": {
+      "type": "object",
+      "required": [
+        "record_id",
+        "record_type",
+        "canonical_name",
+        "corridor_type",
+        "system_level",
+        "lifecycle_status"
+      ],
+      "properties": {
+        "record_id": {
+          "type": "string",
+          "pattern": "^urn:worldfabric:corridor:"
+        },
+        "record_type": {
+          "const": "corridor"
+        },
+        "canonical_name": {
+          "type": "string",
+          "minLength": 2
+        },
+        "short_name": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "alternative_names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "acronyms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "corridor_type": {
+          "enum": [
+            "maritime",
+            "rail",
+            "road",
+            "multimodal",
+            "energy",
+            "digital",
+            "industrial",
+            "military_mobility",
+            "mixed"
+          ]
+        },
+        "system_level": {
+          "enum": [
+            "L1_global_structural",
+            "L2_macro_regional_structural",
+            "L3_strategic_connector"
+          ]
+        },
+        "lifecycle_status": {
+          "type": "string"
+        }
+      }
+    },
+    "scope": {
+      "type": "object",
+      "required": [
+        "included",
+        "excluded"
+      ],
+      "properties": {
+        "included": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "excluded": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "analytical_period": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "overview": {
+      "type": "object",
+      "required": [
+        "functional_subtitle",
+        "why_it_matters"
+      ],
+      "properties": {
+        "functional_subtitle": {
+          "type": "string"
+        },
+        "why_it_matters": {
+          "type": "string"
+        },
+        "watch_list_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 5
+        }
+      }
+    },
+    "current_system_state": {
+      "type": "object",
+      "required": [
+        "as_of",
+        "operational_significance",
+        "capacity_direction",
+        "bottleneck_pattern",
+        "dependency_direction",
+        "resilience_direction",
+        "evidence_confidence"
+      ],
+      "properties": {
+        "as_of": {
+          "type": "string",
+          "format": "date"
+        },
+        "operational_significance": {
+          "$ref": "#/$defs/stateValue"
+        },
+        "capacity_direction": {
+          "$ref": "#/$defs/stateValue"
+        },
+        "bottleneck_pattern": {
+          "$ref": "#/$defs/stateValue"
+        },
+        "dependency_direction": {
+          "$ref": "#/$defs/stateValue"
+        },
+        "resilience_direction": {
+          "$ref": "#/$defs/stateValue"
+        },
+        "evidence_confidence": {
+          "$ref": "#/$defs/stateValue"
+        }
+      }
+    },
+    "major_transformation": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "watch_list": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "maxItems": 50
+    },
+    "geographic_segments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/geographicSegment"
+      },
+      "minItems": 1
+    },
+    "functional_links": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/functionalLink"
+      },
+      "minItems": 1
+    },
+    "asset_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "flows": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "capacity": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "bottlenecks": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "project_impacts": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "actors": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "chronology": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "transformation_assessment": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "statements": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "evidence_packages": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "source_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "validation": {
+      "type": "object",
+      "required": [
+        "decision"
+      ],
+      "properties": {
+        "decision": {
+          "enum": [
+            "validated_for_publication",
+            "validated_with_qualifications",
+            "revision_required",
+            "blocked_insufficient_evidence",
+            "blocked_model_incoherence",
+            "withdrawn",
+            "superseded"
+          ]
+        }
+      }
+    },
+    "version_history": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  },
+  "$defs": {
+    "stateValue": {
+      "type": "object",
+      "required": [
+        "state",
+        "confidence"
+      ],
+      "properties": {
+        "state": {
+          "type": "string"
+        },
+        "confidence": {
+          "enum": [
+            "low",
+            "medium_low",
+            "medium",
+            "medium_high",
+            "high"
+          ]
+        },
+        "statement_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "geographicSegment": {
+      "type": "object",
+      "required": [
+        "segment_id",
+        "canonical_name"
+      ],
+      "properties": {
+        "segment_id": {
+          "type": "string"
+        },
+        "canonical_name": {
+          "type": "string"
+        },
+        "geography_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "modes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "asset_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "geometry_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "functionalLink": {
+      "type": "object",
+      "required": [
+        "link_id",
+        "function_type"
+      ],
+      "properties": {
+        "link_id": {
+          "type": "string"
+        },
+        "function_type": {
+          "type": "string"
+        },
+        "geographic_segment_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "asset_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "project_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "confidence": {
+          "enum": [
+            "low",
+            "medium_low",
+            "medium",
+            "medium_high",
+            "high"
+          ]
+        }
+      }
+    }
+  }
+}

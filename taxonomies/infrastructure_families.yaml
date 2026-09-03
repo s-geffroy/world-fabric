@@ -1,0 +1,12 @@
+version: 1
+values:
+  - maritime
+  - rail
+  - road
+  - inland_waterway
+  - intermodal_logistics
+  - air_cargo
+  - energy
+  - digital
+  - border_coordination
+  - strategic_storage

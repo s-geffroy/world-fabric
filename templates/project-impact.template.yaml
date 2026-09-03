@@ -1,0 +1,34 @@
+impact_id: "impact:replace-me"
+project_ref: "urn:worldfabric:project:replace-me"
+asset_change:
+  asset_ref: "urn:worldfabric:asset:replace-me"
+  change_type: capacity_upgrade
+  epistemic_status: expected
+  before_value: null
+  after_value: null
+  unit: null
+  change_direction: increase
+  magnitude: unknown
+  confidence: low
+  source_refs: []
+functional_link_change:
+  functional_link_ref: "link:replace-me"
+  metric_ref: "metric:replace-me"
+  change_direction: increase
+  magnitude: unknown
+  confidence: low
+corridor_effect:
+  metric_ref: "metric:replace-me"
+  change_direction: unknown
+  magnitude: unknown
+  epistemic_status: expected
+  confidence: low
+counter_effects:
+  - constraint_ref: "bottleneck:replace-me"
+    effect_type: limit
+    explanation: ""
+    evidence_refs: []
+net_assessment:
+  conclusion: ""
+  confidence: low
+  limitations: []

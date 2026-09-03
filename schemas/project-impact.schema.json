@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "World Fabric Project Impact",
+  "type": "object",
+  "required": [
+    "impact_id",
+    "project_ref",
+    "asset_change",
+    "functional_link_change",
+    "corridor_effect",
+    "counter_effects",
+    "net_assessment"
+  ],
+  "properties": {
+    "impact_id": {
+      "type": "string"
+    },
+    "project_ref": {
+      "type": "string"
+    },
+    "asset_change": {
+      "type": "object"
+    },
+    "functional_link_change": {
+      "type": "object"
+    },
+    "corridor_effect": {
+      "type": "object"
+    },
+    "counter_effects": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "net_assessment": {
+      "type": "object"
+    }
+  }
+}

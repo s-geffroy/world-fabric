@@ -1,0 +1,13 @@
+version: 1
+values:
+  - origin_access
+  - rail_haul
+  - road_haul
+  - border_crossing
+  - port_approach
+  - port_handling
+  - maritime_crossing
+  - modal_transfer
+  - customs_processing
+  - service_coordination
+  - last_mile_connection

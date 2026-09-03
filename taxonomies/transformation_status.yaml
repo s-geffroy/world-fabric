@@ -1,0 +1,9 @@
+version: 1
+values:
+  - candidate
+  - under_review
+  - validated
+  - contested
+  - weakened
+  - reversed
+  - historical

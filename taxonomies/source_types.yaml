@@ -1,0 +1,18 @@
+version: 1
+values:
+  - official_primary
+  - operator_primary
+  - contractual
+  - financial_document
+  - regulatory_document
+  - customs_or_trade_data
+  - transport_traffic_data
+  - satellite_observation
+  - academic_analysis
+  - multilateral_institution
+  - specialized_media
+  - general_media
+  - market_intelligence
+  - expert_assessment
+  - model_inference
+  - scenario_assumption

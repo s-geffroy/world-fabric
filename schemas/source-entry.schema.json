@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "World Fabric Source Registry Entry",
+  "type": "object",
+  "required": [
+    "source_id",
+    "source_type",
+    "publisher",
+    "title",
+    "retrieved_at"
+  ],
+  "properties": {
+    "source_id": {
+      "type": "string",
+      "pattern": "^src:"
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "publication_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "url_or_locator": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "language": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "rights_status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "geographic_scope": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "object_scope": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

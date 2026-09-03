@@ -1,0 +1,7 @@
+version: 1
+values:
+  - none
+  - initial
+  - partial
+  - substantial
+  - mature

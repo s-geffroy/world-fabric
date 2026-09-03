@@ -1,0 +1,8 @@
+version: 1
+values:
+  - id: L1_global_structural
+    definition: Can materially affect global flows.
+  - id: L2_macro_regional_structural
+    definition: Shapes flows across a continent, basin or major economic system.
+  - id: L3_strategic_connector
+    definition: Nationally located asset or system with significant international spillover.

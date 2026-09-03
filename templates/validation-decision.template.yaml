@@ -1,0 +1,20 @@
+validation_decision:
+  record_id: ""
+  record_version: ""
+  decision: revision_required
+  decided_at: null
+  validator: null
+  open_defects: []
+  qualifications: []
+  gates:
+    gate_1_identity: fail
+    gate_2_system_representation: fail
+    gate_3_flow_relevance: fail
+    gate_4_capacity: fail
+    gate_5_bottlenecks: fail
+    gate_6_project_impact: fail
+    gate_7_transformation: fail
+    gate_8_evidence: fail
+    gate_9_data_integrity: fail
+    gate_10_editorial: fail
+  next_review_due: null

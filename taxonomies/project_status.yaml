@@ -1,0 +1,18 @@
+version: 1
+values:
+  - conceptual
+  - announced
+  - feasibility
+  - planned_official
+  - permitting
+  - financing_sought
+  - financing_committed
+  - contracted
+  - under_construction
+  - commissioning
+  - operational
+  - delayed
+  - suspended
+  - cancelled
+  - abandoned
+  - completed

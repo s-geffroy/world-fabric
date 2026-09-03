@@ -1,0 +1,47 @@
+version: 1
+operational_significance:
+  - marginal
+  - limited
+  - emerging
+  - growing
+  - established
+  - major
+  - declining
+capacity_direction:
+  - contracting
+  - stable
+  - expanding
+  - expanding_unevenly
+  - degraded
+  - recovering
+  - uncertain
+bottleneck_pattern:
+  - stable
+  - deepening
+  - reducing
+  - migrating
+  - fragmented
+  - unresolved
+  - uncertain
+dependency_direction:
+  - concentrating
+  - stable
+  - diversifying
+  - shifting
+  - reducing
+  - increasing
+  - uncertain
+resilience_direction:
+  - weakening
+  - stable
+  - improving
+  - improving_unevenly
+  - recovering
+  - unproven
+  - uncertain
+confidence:
+  - low
+  - medium_low
+  - medium
+  - medium_high
+  - high

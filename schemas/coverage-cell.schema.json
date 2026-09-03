@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "World Fabric Coverage Cell",
+  "type": "object",
+  "required": [
+    "region_id",
+    "infrastructure_family",
+    "strategic_level",
+    "coverage_status",
+    "objects_identified",
+    "objects_validated",
+    "objects_published"
+  ],
+  "properties": {
+    "region_id": {
+      "type": "string"
+    },
+    "infrastructure_family": {
+      "type": "string"
+    },
+    "strategic_level": {
+      "enum": [
+        "L1_global_structural",
+        "L2_macro_regional_structural",
+        "L3_strategic_connector"
+      ]
+    },
+    "coverage_status": {
+      "enum": [
+        "none",
+        "initial",
+        "partial",
+        "substantial",
+        "mature"
+      ]
+    },
+    "objects_identified": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "objects_validated": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "objects_published": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "priority_gaps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "last_reviewed": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "reviewer": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

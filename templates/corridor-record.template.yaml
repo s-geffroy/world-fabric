@@ -1,0 +1,65 @@
+schema_version: "1.0"
+record_version: "0.1.0"
+metadata:
+  last_reviewed: "2026-08-13"
+  canonical_language: en
+  dataset_snapshot: null
+identity:
+  record_id: "urn:worldfabric:corridor:replace-me"
+  record_type: corridor
+  canonical_name: "REPLACE_ME"
+  short_name: null
+  alternative_names: []
+  acronyms: []
+  corridor_type: multimodal
+  system_level: L2_macro_regional_structural
+  lifecycle_status: researching
+scope:
+  included: []
+  excluded: []
+  analytical_period: null
+overview:
+  functional_subtitle: ""
+  why_it_matters: ""
+  watch_list_refs: []
+current_system_state:
+  as_of: "2026-01-01"
+  operational_significance: {state: emerging, confidence: low, statement_ref: null}
+  capacity_direction: {state: uncertain, confidence: low, statement_ref: null}
+  bottleneck_pattern: {state: uncertain, confidence: low, statement_ref: null}
+  dependency_direction: {state: uncertain, confidence: low, statement_ref: null}
+  resilience_direction: {state: uncertain, confidence: low, statement_ref: null}
+  evidence_confidence: {state: incomplete, confidence: low, statement_ref: null}
+major_transformation: null
+watch_list: []
+geographic_segments:
+  - segment_id: "segment:replace-me"
+    canonical_name: "REPLACE_ME"
+    geography_refs: []
+    modes: []
+    asset_refs: []
+    geometry_ref: null
+functional_links:
+  - link_id: "link:replace-me"
+    function_type: rail_haul
+    geographic_segment_refs: ["segment:replace-me"]
+    asset_refs: []
+    project_refs: []
+    confidence: low
+asset_refs: []
+flows: []
+capacity: []
+bottlenecks: []
+dependencies: []
+projects: []
+project_impacts: []
+actors: []
+chronology: []
+transformation_assessment: null
+limitations: []
+statements: []
+evidence_packages: []
+source_refs: []
+validation:
+  decision: revision_required
+version_history: []

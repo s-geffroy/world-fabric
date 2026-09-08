@@ -2,6 +2,8 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import coverage from '@site/src/data/coverage.json';
+import CorridorMap from '@site/src/components/CorridorMap';
+import CorridorSchematic from '@site/src/components/CorridorSchematic';
 
 // Dix familles en colonnes : le nom complet ne tient pas, l'abreviation si.
 // La legende sous le tableau retablit chaque libelle.
@@ -67,6 +69,21 @@ export default function World(): React.JSX.Element {
             .join(', ')}
           .
         </p>
+
+        <h2 id="middle-corridor">The first corridor</h2>
+        <p>
+          The Middle Corridor is the reference implementation of the method, and the only corridor
+          drawn here. It is a multimodal route from East Asia to the European network interfaces
+          whose distinguishing feature is a sea leg in the middle: freight moving west by rail must
+          cross the Caspian and be handled twice.
+        </p>
+        <CorridorMap />
+        <p>
+          Read as a chain, the same corridor shows where a constraint can sit. Segment 5 is the only
+          span on which a consignment can wait without a schedule, which is why the first candidate
+          intervention targets it.
+        </p>
+        <CorridorSchematic />
 
         <h2>Coverage matrix</h2>
         <p>

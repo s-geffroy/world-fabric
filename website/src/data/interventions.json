@@ -7,8 +7,26 @@
     "transformative",
     "uncertain"
   ],
-  "counts": {},
-  "entries": [],
+  "counts": {
+    "candidate": 1
+  },
+  "entries": [
+    {
+      "bottleneck": "bottleneck:caspian-crossing-coordination",
+      "confidence": "low",
+      "corridor": "urn:worldfabric:corridor:middle-corridor",
+      "displacement": "port handling and rail path availability at the western interface",
+      "evidenceCount": 0,
+      "expectedEffect": "moderate",
+      "falsification": "Show that observed end-to-end variability is dominated by border-processing time rather than by waiting at the crossing; or that berth idle time at the eastern ports is already low, meaning the wait is a capacity constraint that scheduling cannot relieve; or that consignments already depart within a narrow window and the perceived irregularity sits in the rail haul.",
+      "id": "urn:worldfabric:intervention:caspian-crossing-slot-coordination",
+      "priorityRationale": "Proposed first because it is the cheapest test of the pilot's own hypothesis. The pilot names \"assuming port expansion removes ferry/coordination constraints\" as a critical methodological risk, which makes the coordination question logically prior to any capacity addition: if scheduling relieves the wait, a berth programme was answering the wrong constraint. It reaches two functional links, maritime_crossing and modal_transfer, and its displacement is expected to be smaller than its relief because it moves a constraint westward into segments that already carry scheduled traffic. Preconditions are contractual rather than capital, so feasibility can be assessed without a financing question. Against the evidence criterion it ranks poorly and deliberately so: nothing here is sourced yet.",
+      "status": "candidate",
+      "sufficiency": "insufficient",
+      "summary": "Publish a shared ferry slot schedule across the Caspian crossing and align berth allocation at both shores, so that a booked crossing has a known departure window rather than an open wait.",
+      "type": "coordination_change"
+    }
+  ],
   "source": "data/public/interventions/",
   "statuses": [
     "candidate",
@@ -27,7 +45,7 @@
     "sufficient_for_qualified_publication",
     "sufficient"
   ],
-  "total": 0,
+  "total": 1,
   "types": [
     "capacity_addition",
     "bottleneck_removal",

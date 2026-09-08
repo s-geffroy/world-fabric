@@ -14,7 +14,12 @@ before the site is built.
 - `START_HERE_FR.md`
 - `data/internal/.gitkeep`
 - `data/public/.gitkeep`
+- `data/public/geo/README.md`
+- `data/public/geo/middle-corridor.geojson`
+- `data/public/geo/source/ne_110m_lakes.geojson`
+- `data/public/geo/source/ne_110m_land.geojson`
 - `data/public/interventions/.gitkeep`
+- `data/public/interventions/caspian-crossing-slot-coordination.yaml`
 - `docs/00-foundation/01-charter.md`
 - `docs/00-foundation/02-roadmap.md`
 - `docs/00-foundation/03-architecture-decisions.md`
@@ -84,10 +89,14 @@ before the site is built.
 - `website/docs/reference/02-epistemic-status.md`
 - `website/docs/reference/03-glossary.md`
 - `website/docusaurus.config.ts`
+- `website/package-lock.json`
 - `website/package.json`
 - `website/sidebars.ts`
+- `website/src/components/CorridorMap.tsx`
+- `website/src/components/CorridorSchematic.tsx`
 - `website/src/css/custom.css`
 - `website/src/data/coverage.json`
+- `website/src/data/geo.json`
 - `website/src/data/interventions.json`
 - `website/src/pages/index.tsx`
 - `website/src/pages/interventions.tsx`

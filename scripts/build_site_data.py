@@ -17,6 +17,11 @@ MATRIX = ROOT / 'templates' / 'coverage_matrix.csv'
 TAXONOMIES = ROOT / 'taxonomies'
 OUT = ROOT / 'website' / 'src' / 'data' / 'coverage.json'
 INTERVENTIONS = ROOT / 'data' / 'public' / 'interventions'
+GEO = ROOT / 'data' / 'public' / 'geo'
+OUT_GEO = ROOT / 'website' / 'src' / 'data' / 'geo.json'
+# Cadre de la carte, en degres. Le decoupage ne deplace rien : il jette les
+# anneaux entierement hors cadre, et le viewBox SVG fait le reste.
+BBOX = (18.0, 24.0, 126.0, 58.0)
 OUT_INTERVENTIONS = ROOT / 'website' / 'src' / 'data' / 'interventions.json'
 
 
@@ -94,6 +99,72 @@ def build_interventions():
           f"{len(payload['types'])} types")
 
 
+def _ring_in_bbox(ring):
+    lon_min, lat_min, lon_max, lat_max = BBOX
+    xs = [c[0] for c in ring]
+    ys = [c[1] for c in ring]
+    return not (max(xs) < lon_min or min(xs) > lon_max
+                or max(ys) < lat_min or min(ys) > lat_max)
+
+
+def _crop(geometry):
+    """Keep whole rings that reach the frame; round to two decimals.
+
+    Rings are never clipped. Clipping a polygon would move its edges, and an
+    edge that has been moved is no longer the source geometry — at 1:110m the
+    saving is not worth authoring a coastline that nobody published.
+    """
+    kind = geometry['type']
+    polygons = [geometry['coordinates']] if kind == 'Polygon' else geometry['coordinates']
+    kept = []
+    for polygon in polygons:
+        rings = [[[round(x, 2), round(y, 2)] for x, y in ring]
+                 for ring in polygon if _ring_in_bbox(ring)]
+        if rings:
+            kept.append(rings)
+    if not kept:
+        return None
+    return {'type': 'Polygon', 'coordinates': kept[0]} if len(kept) == 1 else \
+           {'type': 'MultiPolygon', 'coordinates': kept}
+
+
+def build_geo():
+    """Crop the public-domain basemap and pass the corridor through untouched."""
+    layers = {}
+    for name, filename in (('land', 'ne_110m_land.geojson'), ('lakes', 'ne_110m_lakes.geojson')):
+        data = json.loads((GEO / 'source' / filename).read_text(encoding='utf-8'))
+        shapes = [c for c in (_crop(f['geometry']) for f in data['features']) if c]
+        layers[name] = shapes
+
+    corridor = json.loads((GEO / 'middle-corridor.geojson').read_text(encoding='utf-8'))
+    nodes = [{'segment': f['properties']['segment'],
+              'name': f['properties']['name'],
+              'place': f['properties']['place'],
+              'role': f['properties']['role'],
+              'bottleneck': f['properties'].get('bottleneck'),
+              'lon': f['geometry']['coordinates'][0],
+              'lat': f['geometry']['coordinates'][1]}
+             for f in corridor['features'] if f['geometry']['type'] == 'Point']
+    route = next(f['geometry']['coordinates'] for f in corridor['features']
+                 if f['geometry']['type'] == 'LineString')
+
+    payload = {
+        'bbox': list(BBOX),
+        'basemapSource': 'Natural Earth 1:110m, public domain',
+        'geometryStatus': corridor['properties']['geometry_status'],
+        'note': corridor['properties']['note'],
+        'land': layers['land'],
+        'lakes': layers['lakes'],
+        'nodes': nodes,
+        'route': route,
+    }
+    OUT_GEO.parent.mkdir(parents=True, exist_ok=True)
+    OUT_GEO.write_text(json.dumps(payload, separators=(',', ':')) + '\n', encoding='utf-8')
+    size = OUT_GEO.stat().st_size
+    print(f"Wrote {OUT_GEO.relative_to(ROOT)}: {len(layers['land'])} land shapes, "
+          f"{len(layers['lakes'])} lakes, {len(nodes)} corridor nodes, {size // 1024} KiB")
+
+
 def main():
     rows = list(csv.DictReader(MATRIX.open(encoding='utf-8')))
 
@@ -139,6 +210,7 @@ def main():
           f"x {len(payload['levels'])} levels")
 
     build_interventions()
+    build_geo()
 
 
 if __name__ == '__main__':

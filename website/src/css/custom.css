@@ -12,6 +12,15 @@
   --wf-rule: #dcdcd6;
   --wf-muted: #5c635f;
   --wf-panel: #f7f7f4;
+
+  --wf-water: #dbe6ea;
+  --wf-land: #ecece6;
+  --wf-coast: #b9bdb8;
+  --wf-route: #23604a;
+  --wf-node: #23604a;
+  --wf-alert: #b4541f;
+  --wf-map-label: #2b322e;
+  --wf-on-node: #ffffff;
 }
 
 [data-theme='dark'] {
@@ -23,6 +32,15 @@
   --wf-rule: #3a3f3d;
   --wf-muted: #a3aca7;
   --wf-panel: #232725;
+
+  --wf-water: #1b2427;
+  --wf-land: #2c312e;
+  --wf-coast: #4a514c;
+  --wf-route: #8fd0ac;
+  --wf-node: #8fd0ac;
+  --wf-alert: #e08a56;
+  --wf-map-label: #e7ebe8;
+  --wf-on-node: #16211b;
 }
 
 .hero--primary { --ifm-hero-background-color: #f5f5f2; --ifm-hero-text-color: #17201d; }
@@ -75,3 +93,16 @@
 
 .wf-legend { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; margin: 1rem 0; font-size: 0.85rem; }
 .wf-legend span { display: flex; align-items: center; gap: 0.4rem; }
+
+/* Cartes. Le SVG garde une largeur minimale et defile dans son cadre : reduit
+   a la largeur d'un telephone, les etiquettes deviendraient illisibles. */
+.wf-map { margin: 1.5rem 0; }
+.wf-map figcaption { font-size: 0.85rem; margin-top: 0.75rem; }
+.wf-map-svg { display: block; width: 100%; min-width: 40rem; height: auto; }
+.wf-schematic-svg { display: block; width: 100%; min-width: 60rem; height: auto; }
+.wf-schematic-label {
+  font-size: 0.68rem;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--wf-muted);
+}

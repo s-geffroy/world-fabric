@@ -34,7 +34,10 @@ jobs:
           fi
       - name: Install
         working-directory: website
-        run: npm install --no-audit --no-fund
+        # `npm ci` et non `npm install` : le verrou est desormais versionne,
+        # donc la construction en integration continue installe exactement ce
+        # qui a ete construit ici.
+        run: npm ci --no-audit --no-fund
       - name: Install Python tooling
         run: pip install -r requirements-dev.txt
       - name: Validate registers against their schemas

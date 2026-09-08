@@ -1,0 +1,87 @@
+intervention_id: "urn:worldfabric:intervention:caspian-crossing-slot-coordination"
+corridor_ref: "urn:worldfabric:corridor:middle-corridor"
+# Goulet hypothetise, pas encore documente : la fiche corridor n'est pas
+# validee. C'est precisement ce que le palier `candidate` autorise, et ce que
+# la mention non citable annonce au lecteur.
+targets_bottleneck: "bottleneck:caspian-crossing-coordination"
+# Coordination, pas beton. Les criteres de priorite demandent explicitement si
+# un changement de coordination obtiendrait le meme soulagement moins cher :
+# poser d'abord l'hypothese couteuse reviendrait a repondre avant d'avoir pose
+# la question.
+intervention_type: coordination_change
+summary: >-
+  Publish a shared ferry slot schedule across the Caspian crossing and align
+  berth allocation at both shores, so that a booked crossing has a known
+  departure window rather than an open wait.
+epistemic_status: scenario
+proposed_change:
+  functional_link: maritime_crossing
+  metric: "waiting time between rail arrival at the eastern port and vessel departure"
+  direction: decrease
+  magnitude_band: uncertain
+expected_effect:
+  corridor_metric: "end-to-end transit-time variability"
+  magnitude_band: moderate
+  reasoning: >-
+    The pilot plan treats transit-time variability as a distinct dimension from
+    transit time itself, and the crossing is the only segment where a
+    consignment can wait on an unscheduled basis. If waiting at the crossing is
+    a material share of observed variability, making the departure window known
+    compresses the upper tail without adding any physical capacity. The effect
+    is on the spread, not on the mean, and the two must not be reported as one.
+displacement:
+  next_binding_constraint: "port handling and rail path availability at the western interface"
+  reasoning: >-
+    Vessels that today arrive irregularly would arrive on a schedule, which
+    concentrates discharge into predictable peaks at Alat rather than spreading
+    it. Berth and yard capacity that was adequate against a smoothed arrival
+    pattern may bind against a peaked one, and onward rail paths must exist in
+    the same windows. Relief at the crossing is expected to move the binding
+    constraint west, not to remove it from the system.
+counter_effects:
+  - description: >-
+      Announced reliability can pull demand forward, so measured waiting time
+      may fall while queue length rises. Volume and waiting must be read
+      together or the improvement will be overstated.
+    severity: unknown
+  - description: >-
+      Slot discipline can be absorbed by customs and border processing, which
+      the pilot treats as a separate functional link. A gain at the crossing
+      that is consumed downstream produces no end-to-end change.
+    severity: unknown
+  - description: >-
+      A published schedule that operators cannot hold degrades into a
+      promotional figure, which the pilot's methodological risks name
+      explicitly.
+    severity: unknown
+preconditions:
+  - "agreement between the ferry operators and both port authorities on a common slot calendar"
+  - "a shared arrival and departure data feed that is observable by third parties"
+  - "no tariff or ownership change is required, which is what makes this cheaper than capacity addition"
+# Vide, et le schema l'impose tant que le statut vaut candidate.
+evidence: []
+evidence_sufficiency: insufficient
+falsification: >-
+  Show that observed end-to-end variability is dominated by border-processing
+  time rather than by waiting at the crossing; or that berth idle time at the
+  eastern ports is already low, meaning the wait is a capacity constraint that
+  scheduling cannot relieve; or that consignments already depart within a
+  narrow window and the perceived irregularity sits in the rail haul.
+confidence: low
+priority_rationale: >-
+  Proposed first because it is the cheapest test of the pilot's own hypothesis.
+  The pilot names "assuming port expansion removes ferry/coordination
+  constraints" as a critical methodological risk, which makes the coordination
+  question logically prior to any capacity addition: if scheduling relieves the
+  wait, a berth programme was answering the wrong constraint. It reaches two
+  functional links, maritime_crossing and modal_transfer, and its displacement
+  is expected to be smaller than its relief because it moves a constraint
+  westward into segments that already carry scheduled traffic. Preconditions are
+  contractual rather than capital, so feasibility can be assessed without a
+  financing question. Against the evidence criterion it ranks poorly and
+  deliberately so: nothing here is sourced yet.
+status: candidate
+review:
+  validator: null
+  decision_date: null
+  notes: null

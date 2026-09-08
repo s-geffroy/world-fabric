@@ -136,7 +136,9 @@ export default function Interventions(): React.JSX.Element {
                 {entries.map((e) => (
                   <tr key={e.id}>
                     <th scope="row">{e.summary || e.id}</th>
-                    <td>{e.bottleneck}</td>
+                    <td>
+                      <Link to="/world">{e.bottleneck}</Link>
+                    </td>
                     <td>{e.displacement}</td>
                     <td><code>{e.type}</code></td>
                     <td>

@@ -6,7 +6,12 @@ import geo from '@site/src/data/geo.json';
 // corridor parait deux fois plus long qu'il n'est.
 const LAT0 = 41;
 const K = Math.cos((LAT0 * Math.PI) / 180);
-const project = (lon: number, lat: number): [number, number] => [lon * K, -lat];
+// Le SVG s'etire a la largeur du conteneur : une police exprimee en degres
+// grandit avec lui. En projetant dans un espace d'environ mille unites, une
+// unite vaut un pixel a la largeur minimale, et les tailles redeviennent
+// previsibles — meme discipline que le schema.
+const S = 1000 / ((126 - 18) * K);
+const project = (lon: number, lat: number): [number, number] => [lon * K * S, -lat * S];
 
 const [lonMin, latMin, lonMax, latMax] = geo.bbox as number[];
 const [x0, y1] = project(lonMin, latMin);
@@ -50,38 +55,43 @@ export default function CorridorMap(): React.JSX.Element {
           <rect x={x0} y={y0} width={x1 - x0} height={y1 - y0} fill="var(--wf-water)" />
           {(geo.land as any[]).map((shape, i) => (
             <path key={`land-${i}`} d={toPath(shape)} fill="var(--wf-land)"
-                  stroke="var(--wf-coast)" strokeWidth={0.12} fillRule="evenodd" />
+                  stroke="var(--wf-coast)" strokeWidth={1.4} fillRule="evenodd" />
           ))}
           {(geo.lakes as any[]).map((shape, i) => (
             <path key={`lake-${i}`} d={toPath(shape)} fill="var(--wf-water)"
-                  stroke="var(--wf-coast)" strokeWidth={0.08} />
+                  stroke="var(--wf-coast)" strokeWidth={1.0} />
           ))}
 
-          <path d={routePath} fill="none" stroke="var(--wf-route)" strokeWidth={0.55}
-                strokeLinejoin="round" strokeLinecap="round" strokeDasharray="1.6 0.9" />
+          <path d={routePath} fill="none" stroke="var(--wf-route)" strokeWidth={6}
+                strokeLinejoin="round" strokeLinecap="round" strokeDasharray="19 11" />
 
           {(geo.nodes as any[]).map((n) => {
             const [x, y] = project(n.lon, n.lat);
             const flagged = Boolean(n.bottleneck);
             return (
               <g key={`${n.segment}-${n.place}`}>
-                <circle cx={x} cy={y} r={flagged ? 0.95 : 0.6}
+                <circle cx={x} cy={y} r={flagged ? 11 : 7}
                         fill={flagged ? 'var(--wf-alert)' : 'var(--wf-node)'}
-                        stroke="var(--wf-water)" strokeWidth={0.18}>
+                        stroke="var(--wf-water)" strokeWidth={2.2}>
                   <title>{`${n.segment}. ${n.name} — ${n.place}${flagged ? ' (hypothesised bottleneck)' : ''}`}</title>
                 </circle>
-                <text x={x} y={y - 1.5} textAnchor="middle" fontSize={1.5}
-                      fill="var(--wf-map-label)" stroke="var(--wf-water)" strokeWidth={0.45}
-                      paintOrder="stroke">
-                  {n.place}
-                </text>
+                {!n.labelHidden && (
+                  <text x={x + n.labelDx * K * S} y={y + n.labelDy * S}
+                        textAnchor={n.labelAnchor} fontSize={14} fill="var(--wf-map-label)"
+                        stroke="var(--wf-water)" strokeWidth={3.5} paintOrder="stroke"
+                        fontWeight={600}>
+                    {n.place}
+                  </text>
+                )}
               </g>
             );
           })}
         </svg>
       </div>
       <figcaption className="wf-muted">
-        Basemap: {geo.basemapSource}. <b>The alignment is {geo.geometryStatus}.</b> {geo.note} It
+        Ganja and Kars carry a dot without a label — the Caucasus nodes sit too close together for
+        horizontal type; the schematic below names all ten segments. Basemap: {geo.basemapSource}.{' '}
+        <b>The alignment is {geo.geometryStatus}.</b> {geo.note} It
         asserts nothing about capacity, ownership, gauge or operating status, and is superseded by
         the corridor record’s own segment geometry once that record is validated.
       </figcaption>

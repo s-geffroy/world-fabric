@@ -23,7 +23,7 @@ const ROLE_LABEL: Record<string, string> = {
 
 const STEP = 120;
 const W = STEP * SEGMENTS.length;
-const H = 210;
+const H = 232;
 const Y = 96;
 
 export default function CorridorSchematic(): React.JSX.Element {
@@ -46,20 +46,17 @@ export default function CorridorSchematic(): React.JSX.Element {
                 )}
                 <circle cx={x} cy={Y} r={flagged ? 11 : 8}
                         fill={flagged ? 'var(--wf-alert)' : 'var(--wf-node)'} />
-                <text x={x} y={Y + 4} textAnchor="middle" fontSize={11}
+                <text x={x} y={Y + 5} textAnchor="middle" fontSize={14}
                       fill="var(--wf-on-node)" fontWeight={600}>
                   {s.segment}
                 </text>
 
-                <text x={x} y={Y - 34} textAnchor="middle" fontSize={12}
-                      fill="var(--wf-map-label)" fontWeight={600}>
-                  {s.place}
-                </text>
-                <text x={x} y={Y - 20} textAnchor="middle" fontSize={10} fill="var(--wf-muted)">
+                <text x={x} y={Y - 22} textAnchor="middle" fontSize={13} fill="var(--wf-muted)">
                   {ROLE_LABEL[s.role] ?? s.role}
                 </text>
 
-                <foreignObject x={x - STEP / 2 + 6} y={Y + 22} width={STEP - 12} height={80}>
+                <foreignObject x={x - STEP / 2 + 5} y={Y + 20} width={STEP - 10} height={104}>
+                  <div className="wf-schematic-place">{s.place}</div>
                   <div className="wf-schematic-label">{s.name}</div>
                 </foreignObject>
               </g>

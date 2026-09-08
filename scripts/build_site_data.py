@@ -143,7 +143,11 @@ def build_geo():
               'role': f['properties']['role'],
               'bottleneck': f['properties'].get('bottleneck'),
               'lon': f['geometry']['coordinates'][0],
-              'lat': f['geometry']['coordinates'][1]}
+              'lat': f['geometry']['coordinates'][1],
+              'labelDx': f['properties'].get('label_dx', 0),
+              'labelDy': f['properties'].get('label_dy', -1.9),
+              'labelAnchor': f['properties'].get('label_anchor', 'middle'),
+              'labelHidden': f['properties'].get('label_hidden', False)}
              for f in corridor['features'] if f['geometry']['type'] == 'Point']
     route = next(f['geometry']['coordinates'] for f in corridor['features']
                  if f['geometry']['type'] == 'LineString')

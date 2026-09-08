@@ -36,12 +36,16 @@ const toPath = (shape: any): string => {
     .join(' ');
 };
 
-const routePath = (geo.route as number[][])
-  .map(([lon, lat], i) => {
-    const [x, y] = project(lon, lat);
-    return `${i === 0 ? 'M' : 'L'}${x.toFixed(2)} ${y.toFixed(2)}`;
-  })
-  .join(' ');
+const toLine = (coords: number[][]): string =>
+  coords
+    .map(([lon, lat], i) => {
+      const [x, y] = project(lon, lat);
+      return `${i === 0 ? 'M' : 'L'}${x.toFixed(1)} ${y.toFixed(1)}`;
+    })
+    .join(' ');
+
+type Leg = {from: string; to: string; mode: string; status: string; coords: number[][]};
+const legs = geo.legs as Leg[];
 
 export default function CorridorMap(): React.JSX.Element {
   return (
@@ -62,8 +66,23 @@ export default function CorridorMap(): React.JSX.Element {
                   stroke="var(--wf-coast)" strokeWidth={1.0} />
           ))}
 
-          <path d={routePath} fill="none" stroke="var(--wf-route)" strokeWidth={6}
-                strokeLinejoin="round" strokeLinecap="round" strokeDasharray="19 11" />
+          {legs.map((leg) => (
+            <path
+              key={`${leg.from}-${leg.to}`}
+              d={toLine(leg.coords)}
+              fill="none"
+              stroke={leg.mode === 'ferry' ? 'var(--wf-alert)' : 'var(--wf-route)'}
+              strokeWidth={leg.mode === 'ferry' ? 4 : 5}
+              strokeLinejoin="round"
+              strokeLinecap="round"
+              strokeDasharray={leg.mode === 'ferry' ? '14 10' : undefined}>
+              <title>
+                {leg.mode === 'ferry'
+                  ? `${leg.from} → ${leg.to}: Caspian crossing, no rail — declared connector`
+                  : `${leg.from} → ${leg.to}: OpenStreetMap rail geometry`}
+              </title>
+            </path>
+          ))}
 
           {(geo.nodes as any[]).map((n) => {
             const [x, y] = project(n.lon, n.lat);
@@ -89,11 +108,15 @@ export default function CorridorMap(): React.JSX.Element {
         </svg>
       </div>
       <figcaption className="wf-muted">
-        Ganja and Kars carry a dot without a label — the Caucasus nodes sit too close together for
-        horizontal type; the schematic below names all ten segments. Basemap: {geo.basemapSource}.{' '}
-        <b>The alignment is {geo.geometryStatus}.</b> {geo.note} It
-        asserts nothing about capacity, ownership, gauge or operating status, and is superseded by
-        the corridor record’s own segment geometry once that record is validated.
+        Solid line: {geo.railLengthKm.toLocaleString('en')} km of rail geometry, {geo.railSource}.
+        Dashed line: the Caspian crossing, where no rail exists — a declared connector, not a
+        shipping lane. Basemap: {geo.basemapSource}. Ganja and Kars carry a dot without a label, the
+        Caucasus nodes sitting too close together for horizontal type; the schematic below names all
+        ten segments.
+        <br />
+        <b>What the rail line is, and is not.</b> {geo.railMethod} It asserts nothing about capacity,
+        ownership, gauge or operating status, and is superseded by the corridor record’s own segment
+        geometry once that record is validated.
       </figcaption>
     </figure>
   );

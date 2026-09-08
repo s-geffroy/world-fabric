@@ -137,6 +137,7 @@ def build_geo():
         layers[name] = shapes
 
     corridor = json.loads((GEO / 'middle-corridor.geojson').read_text(encoding='utf-8'))
+    rail = json.loads((GEO / 'middle-corridor-rail.geojson').read_text(encoding='utf-8'))
     nodes = [{'segment': f['properties']['segment'],
               'name': f['properties']['name'],
               'place': f['properties']['place'],
@@ -149,18 +150,26 @@ def build_geo():
               'labelAnchor': f['properties'].get('label_anchor', 'middle'),
               'labelHidden': f['properties'].get('label_hidden', False)}
              for f in corridor['features'] if f['geometry']['type'] == 'Point']
-    route = next(f['geometry']['coordinates'] for f in corridor['features']
-                 if f['geometry']['type'] == 'LineString')
+    legs = [{'from': f['properties']['from'], 'to': f['properties']['to'],
+             'mode': f['properties']['mode'],
+             'status': f['properties']['geometry_status'],
+             'km': f['properties'].get('length_km'),
+             'detour': f['properties'].get('detour_ratio'),
+             'coords': f['geometry']['coordinates']}
+            for f in rail['features']]
 
     payload = {
         'bbox': list(BBOX),
         'basemapSource': 'Natural Earth 1:110m, public domain',
+        'railSource': rail['properties']['basemap_note'],
+        'railMethod': rail['properties']['method'],
+        'railLengthKm': rail['properties']['rail_length_km'],
+        'legs': legs,
         'geometryStatus': corridor['properties']['geometry_status'],
         'note': corridor['properties']['note'],
         'land': layers['land'],
         'lakes': layers['lakes'],
         'nodes': nodes,
-        'route': route,
     }
     OUT_GEO.parent.mkdir(parents=True, exist_ok=True)
     OUT_GEO.write_text(json.dumps(payload, separators=(',', ':')) + '\n', encoding='utf-8')

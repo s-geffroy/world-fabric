@@ -14,7 +14,27 @@ dataset, not a lake feature; it renders as water under an even-odd fill rule.
 `scripts/build_site_data.py` crops both files to the corridor bounding box and
 rounds coordinates to two decimals. Nothing is added, moved or smoothed.
 
-## Corridor geometry — `middle-corridor.geojson`
+## Rail alignment — `middle-corridor-rail.geojson`
+
+**Rail geometry © OpenStreetMap contributors, ODbL 1.0.**
+
+Each of the eight land legs is the least-cost path over the OSM `railway=rail`
+graph between the named nodes. The graph was built from 48 bounding-box queries
+covering the corridor (411,887 nodes); service tracks carry a x6 cost so they
+are used only to bridge station connections. Endpoints snap to the nearest node
+inside a component that contains both ends — snapping to the nearest node
+outright had attached Xi'an to an isolated three-node stub.
+
+Two things remain authored rather than sourced, and are declared on the map:
+
+- the queried corridor, which is where the boxes were placed;
+- the fact that **least-cost is not the route operators actually use**. That is
+  a research question for the corridor record, not a property of the graph.
+
+The Caspian leg carries `mode: ferry` and `geometry_status: indicative`: no rail
+exists there, and the straight connector is not a shipping lane.
+
+## Corridor nodes — `middle-corridor.geojson`
 
 **The alignment is indicative and is not a canonical record.**
 

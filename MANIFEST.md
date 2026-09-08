@@ -15,6 +15,7 @@ before the site is built.
 - `data/internal/.gitkeep`
 - `data/public/.gitkeep`
 - `data/public/geo/README.md`
+- `data/public/geo/middle-corridor-rail.geojson`
 - `data/public/geo/middle-corridor.geojson`
 - `data/public/geo/source/ne_110m_lakes.geojson`
 - `data/public/geo/source/ne_110m_land.geojson`

@@ -1,0 +1,10 @@
+# L'effet attendu se declare en bande, jamais en nombre : un chiffre unique
+# sur un effet non observe est une precision inventee.
+version: 1
+values:
+  - negligible
+  - marginal
+  - moderate
+  - substantial
+  - transformative
+  - uncertain

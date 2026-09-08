@@ -1,0 +1,237 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "World Fabric Intervention",
+  "description": "A reasoned proposal to relieve a documented bottleneck. The claimed effect is always a scenario; it never becomes an observation by being built.",
+  "type": "object",
+  "required": [
+    "intervention_id",
+    "corridor_ref",
+    "targets_bottleneck",
+    "intervention_type",
+    "summary",
+    "epistemic_status",
+    "proposed_change",
+    "expected_effect",
+    "displacement",
+    "counter_effects",
+    "preconditions",
+    "evidence",
+    "evidence_sufficiency",
+    "falsification",
+    "confidence",
+    "priority_rationale",
+    "status"
+  ],
+  "properties": {
+    "intervention_id": {
+      "type": "string"
+    },
+    "corridor_ref": {
+      "type": "string",
+      "description": "Canonical record of the corridor this intervention acts on."
+    },
+    "targets_bottleneck": {
+      "type": "string",
+      "description": "Reference into the corridor's bottleneck register. An intervention without a documented bottleneck is a wish, not a finding."
+    },
+    "intervention_type": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 20
+    },
+    "epistemic_status": {
+      "const": "scenario",
+      "description": "Fixed by doctrine. The effect of an unbuilt work cannot be observed, and building it does not convert the claim: that requires new evidence on the corridor metric."
+    },
+    "proposed_change": {
+      "type": "object",
+      "required": [
+        "functional_link",
+        "metric",
+        "direction",
+        "magnitude_band"
+      ],
+      "properties": {
+        "functional_link": {
+          "type": "string"
+        },
+        "metric": {
+          "type": "string"
+        },
+        "direction": {
+          "enum": [
+            "increase",
+            "decrease",
+            "stabilise"
+          ]
+        },
+        "magnitude_band": {
+          "type": "string"
+        }
+      }
+    },
+    "expected_effect": {
+      "type": "object",
+      "required": [
+        "corridor_metric",
+        "magnitude_band",
+        "reasoning"
+      ],
+      "properties": {
+        "corridor_metric": {
+          "type": "string"
+        },
+        "magnitude_band": {
+          "type": "string"
+        },
+        "reasoning": {
+          "type": "string",
+          "minLength": 20
+        }
+      }
+    },
+    "displacement": {
+      "type": "object",
+      "description": "Mandatory. Relieving one constraint usually moves the binding one rather than removing it.",
+      "required": [
+        "next_binding_constraint",
+        "reasoning"
+      ],
+      "properties": {
+        "next_binding_constraint": {
+          "type": "string"
+        },
+        "reasoning": {
+          "type": "string",
+          "minLength": 20
+        }
+      }
+    },
+    "counter_effects": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "description"
+        ],
+        "properties": {
+          "description": {
+            "type": "string"
+          },
+          "severity": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "preconditions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      },
+      "description": "What must hold for the intervention to be feasible at all: financing, jurisdiction, permitting, operator agreement."
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "References into the source registry. May be empty only while status is candidate."
+    },
+    "evidence_sufficiency": {
+      "type": "string"
+    },
+    "falsification": {
+      "type": "string",
+      "minLength": 20,
+      "description": "What would show this is the wrong intervention for this bottleneck."
+    },
+    "confidence": {
+      "type": "string"
+    },
+    "priority_rationale": {
+      "type": "string",
+      "minLength": 20,
+      "description": "Argued in words against documented criteria. No composite priority score is computed or stored."
+    },
+    "status": {
+      "type": "string"
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "validator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "decision_date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "description": "A validated intervention requires sufficient evidence; candidates must declare that they do not have it.",
+      "if": {
+        "properties": {
+          "status": {
+            "const": "validated"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "evidence": {
+            "minItems": 1
+          },
+          "evidence_sufficiency": {
+            "enum": [
+              "sufficient",
+              "sufficient_for_qualified_publication"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "candidate"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "evidence_sufficiency": {
+            "const": "insufficient"
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

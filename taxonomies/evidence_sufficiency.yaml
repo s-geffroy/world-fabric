@@ -1,0 +1,8 @@
+# Declare ce que les preuves reunies autorisent a dire. `insufficient` est la
+# valeur par defaut et le seul etat compatible avec un corridor non valide.
+version: 1
+values:
+  - insufficient
+  - indicative
+  - sufficient_for_qualified_publication
+  - sufficient

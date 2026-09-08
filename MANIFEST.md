@@ -14,6 +14,7 @@ before the site is built.
 - `START_HERE_FR.md`
 - `data/internal/.gitkeep`
 - `data/public/.gitkeep`
+- `data/public/interventions/.gitkeep`
 - `docs/00-foundation/01-charter.md`
 - `docs/00-foundation/02-roadmap.md`
 - `docs/00-foundation/03-architecture-decisions.md`
@@ -27,6 +28,8 @@ before the site is built.
 - `docs/04-industrialization/02-publication-architecture.md`
 - `docs/05-global-expansion/01-global-expansion.md`
 - `docs/05-global-expansion/02-coverage-matrix-spec.md`
+- `docs/06-intervention/01-intervention-doctrine.md`
+- `docs/06-intervention/02-intervention-register-spec.md`
 - `docs/index.md`
 - `docs/pilots/middle-corridor/01-pilot-plan.md`
 - `docs/reference/01-record-lifecycle.md`
@@ -35,6 +38,7 @@ before the site is built.
 - `requirements-dev.txt`
 - `schemas/corridor-record.schema.json`
 - `schemas/coverage-cell.schema.json`
+- `schemas/intervention.schema.json`
 - `schemas/project-impact.schema.json`
 - `schemas/source-entry.schema.json`
 - `scripts/build_site_data.py`
@@ -42,8 +46,12 @@ before the site is built.
 - `scripts/validate_records.py`
 - `taxonomies/coverage_status.yaml`
 - `taxonomies/epistemic_status.yaml`
+- `taxonomies/evidence_sufficiency.yaml`
 - `taxonomies/functional_links.yaml`
 - `taxonomies/infrastructure_families.yaml`
+- `taxonomies/intervention_status.yaml`
+- `taxonomies/intervention_types.yaml`
+- `taxonomies/magnitude_bands.yaml`
 - `taxonomies/project_status.yaml`
 - `taxonomies/record_status.yaml`
 - `taxonomies/source_types.yaml`
@@ -52,6 +60,7 @@ before the site is built.
 - `taxonomies/transformation_status.yaml`
 - `templates/corridor-record.template.yaml`
 - `templates/coverage_matrix.csv`
+- `templates/intervention.template.yaml`
 - `templates/project-impact.template.yaml`
 - `templates/validation-decision.template.yaml`
 - `website/docs/00-foundation/01-charter.md`
@@ -67,6 +76,8 @@ before the site is built.
 - `website/docs/04-industrialization/02-publication-architecture.md`
 - `website/docs/05-global-expansion/01-global-expansion.md`
 - `website/docs/05-global-expansion/02-coverage-matrix-spec.md`
+- `website/docs/06-intervention/01-intervention-doctrine.md`
+- `website/docs/06-intervention/02-intervention-register-spec.md`
 - `website/docs/index.md`
 - `website/docs/pilots/middle-corridor/01-pilot-plan.md`
 - `website/docs/reference/01-record-lifecycle.md`
@@ -77,7 +88,9 @@ before the site is built.
 - `website/sidebars.ts`
 - `website/src/css/custom.css`
 - `website/src/data/coverage.json`
+- `website/src/data/interventions.json`
 - `website/src/pages/index.tsx`
+- `website/src/pages/interventions.tsx`
 - `website/src/pages/model.tsx`
 - `website/src/pages/world.tsx`
 - `website/static/data/.gitkeep`

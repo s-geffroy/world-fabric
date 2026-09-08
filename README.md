@@ -8,6 +8,15 @@ The project is published through GitHub Pages. It is part of the research work i
 
 > How are infrastructures, corridors, projects and constraints changing the effective capacity of the systems that carry global flows?
 
+And, downstream of it and only on documented evidence:
+
+> Which works would actually relieve the constraints that bind those systems?
+
+The second question is answered through the intervention register, under the
+conditions set out in Dossier 6. An intervention must target a bottleneck
+documented in a canonical record: the observatory does not publish a ranked list
+of desirable infrastructure.
+
 ## V1 proof obligations
 
 World Fabric V1 must prove three things:
@@ -25,12 +34,14 @@ The first pilot is the **Middle Corridor / Trans-Caspian International Transport
 - `docs/03-pipeline/` — Dossier 3: production pipeline
 - `docs/04-industrialization/` — Dossier 4: industrialization
 - `docs/05-global-expansion/` — Dossier 5: global expansion
+- `docs/06-intervention/` — Dossier 6: intervention doctrine
 - `docs/pilots/` — pilot research plans
 - `schemas/` — machine-readable contracts
 - `taxonomies/` — controlled vocabularies
 - `templates/` — canonical record and review templates
 - `website/` — Docusaurus publication shell
 - `data/public/` — publishable generated datasets
+- `data/public/interventions/` — the intervention register, one file per entry
 - `data/internal/` — non-public working area; never deploy from here
 
 ## Canonical language

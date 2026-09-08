@@ -1,0 +1,13 @@
+# Cycle de vie d'une entree du registre des interventions. `candidate` est
+# admis sans fiche corridor validee ; `validated` ne l'est pas.
+version: 1
+values:
+  - candidate
+  - evidence_review
+  - analytical_review
+  - validated
+  - blocked_insufficient_evidence
+  - contested
+  - superseded
+  - withdrawn
+  - implemented

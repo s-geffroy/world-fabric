@@ -78,6 +78,18 @@ Published analytical conclusions must be inspectable through their assessments, 
 
 World Fabric is a stand-alone research project. English is canonical. The public observatory is delivered through Docusaurus and GitHub Pages. Ligne de Crête indexes and contextualises the research but is not a separate institutional sponsor or scientific authority.
 
-## 11. Complexity rule
+## 11. Intervention doctrine
+
+World Fabric may state which works would improve a system, under conditions set
+out in Dossier 6. An intervention must target a bottleneck documented in a
+canonical record; its claimed effect is permanently a `scenario`; it must name
+the constraint that becomes binding once the targeted one is relieved; and it is
+prioritised by argued criteria, never by a composite score.
+
+Interventions authored before a corridor record is validated are `candidate`
+entries, carry `evidence_sufficiency: insufficient`, and are published under an
+explicit non-citable notice.
+
+## 12. Complexity rule
 
 The data model may remain compatible with future sophistication, but V1 implementation must remain narrow. New concepts or engines are added only when a demonstrated research failure requires them.

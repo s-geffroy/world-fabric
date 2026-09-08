@@ -33,6 +33,12 @@ const DOSSIERS = [
     title: 'Global Expansion',
     text: 'Expand through the coverage matrix, after three methodological stress tests.',
   },
+  {
+    to: '/research/intervention/intervention-doctrine',
+    n: 'Dossier 6',
+    title: 'Intervention Doctrine',
+    text: 'When the observatory may say what should be built — and when it must refuse.',
+  },
 ];
 
 export default function Home(): React.JSX.Element {
@@ -47,6 +53,7 @@ export default function Home(): React.JSX.Element {
           <div>
             <Link className="button button--primary button--lg" to="/world">Explore the World</Link>{' '}
             <Link className="button button--secondary button--lg" to="/model">Understand the Model</Link>{' '}
+            <Link className="button button--secondary button--lg" to="/interventions">What to Build</Link>{' '}
             <Link className="button button--secondary button--lg" to="/research">Inspect the Research</Link>
           </div>
         </div>
@@ -105,6 +112,22 @@ export default function Home(): React.JSX.Element {
             Read the <Link to="/research/foundation/charter">Research Charter</Link> first, then the
             dossiers in order. The <Link to="/research/foundation/roadmap">roadmap</Link> shows where
             each one sits.
+          </p>
+        </section>
+
+        <section className="container margin-bottom--xl">
+          <h2>And then, which works to do</h2>
+          <p className="wf-lead">
+            Describing a system is not the point in itself. The question underneath is which works
+            would actually relieve the constraints that bind it — and World Fabric answers it only
+            through a bottleneck documented in a canonical record. An intervention that cannot name
+            the constraint it targets is not published, however desirable the work may be.
+          </p>
+          <p className="wf-lead">
+            The claimed effect is permanently a scenario, the constraint that becomes binding next
+            is mandatory, and priority is argued in words rather than scored. See{' '}
+            <Link to="/interventions">what should be built</Link> and{' '}
+            <Link to="/research/intervention/intervention-doctrine">Dossier 6</Link>.
           </p>
         </section>
 

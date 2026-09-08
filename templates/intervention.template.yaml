@@ -1,0 +1,40 @@
+intervention_id: "urn:worldfabric:intervention:replace-me"
+corridor_ref: "urn:worldfabric:corridor:replace-me"
+# Sans goulet documente, il n'y a pas d'intervention : il y a un souhait.
+targets_bottleneck: "bottleneck:replace-me"
+intervention_type: capacity_addition
+summary: "REPLACE_ME — what the intervention does, in one sentence, without adjectives."
+# Fixe par doctrine, et verrouille par le schema.
+epistemic_status: scenario
+proposed_change:
+  functional_link: maritime_crossing
+  metric: "REPLACE_ME"
+  direction: increase
+  magnitude_band: uncertain
+expected_effect:
+  corridor_metric: "REPLACE_ME"
+  magnitude_band: uncertain
+  reasoning: "REPLACE_ME — why the change to the link propagates to the corridor metric."
+# Obligatoire : lever une contrainte deplace le plus souvent la contrainte
+# liante au lieu de la supprimer. Une intervention sans successeur nomme est
+# incomplete, pas optimale.
+displacement:
+  next_binding_constraint: "REPLACE_ME"
+  reasoning: "REPLACE_ME — what becomes binding once this link stops binding."
+counter_effects:
+  - description: "REPLACE_ME — adjacent constraint capable of limiting, delaying or displacing the benefit."
+    severity: unknown
+preconditions:
+  - "REPLACE_ME — financing, jurisdiction, permitting or operator agreement."
+# Vide n'est admis que tant que `status` vaut candidate.
+evidence: []
+evidence_sufficiency: insufficient
+falsification: "REPLACE_ME — what would show this is the wrong intervention for this bottleneck."
+confidence: low
+# Argumente en toutes lettres. Aucun score de priorite n'est calcule ni stocke.
+priority_rationale: "REPLACE_ME — why this ranks against the documented criteria."
+status: candidate
+review:
+  validator: null
+  decision_date: null
+  notes: null

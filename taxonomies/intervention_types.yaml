@@ -1,0 +1,14 @@
+# Ce qu'une intervention fait au systeme. Volontairement non limite au beton :
+# sur les familles border_coordination et digital, l'ouvrage utile est souvent
+# procedural ou contractuel, et l'exclure biaiserait le registre.
+version: 1
+values:
+  - capacity_addition
+  - bottleneck_removal
+  - coordination_change
+  - interoperability_alignment
+  - redundancy_addition
+  - substitution_enablement
+  - maintenance_restoration
+  - regulatory_change
+  - information_transparency

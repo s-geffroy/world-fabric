@@ -1,0 +1,42 @@
+{
+  "bands": [
+    "negligible",
+    "marginal",
+    "moderate",
+    "substantial",
+    "transformative",
+    "uncertain"
+  ],
+  "counts": {},
+  "entries": [],
+  "source": "data/public/interventions/",
+  "statuses": [
+    "candidate",
+    "evidence_review",
+    "analytical_review",
+    "validated",
+    "blocked_insufficient_evidence",
+    "contested",
+    "superseded",
+    "withdrawn",
+    "implemented"
+  ],
+  "sufficiency": [
+    "insufficient",
+    "indicative",
+    "sufficient_for_qualified_publication",
+    "sufficient"
+  ],
+  "total": 0,
+  "types": [
+    "capacity_addition",
+    "bottleneck_removal",
+    "coordination_change",
+    "interoperability_alignment",
+    "redundancy_addition",
+    "substitution_enablement",
+    "maintenance_restoration",
+    "regulatory_change",
+    "information_transparency"
+  ]
+}

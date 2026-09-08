@@ -33,6 +33,7 @@ const config: Config = {
       items: [
         {to: '/world', label: 'Explore the World', position: 'left'},
         {to: '/model', label: 'Understand the Model', position: 'left'},
+        {to: '/interventions', label: 'What to Build', position: 'left'},
         {to: '/research', label: 'Inspect the Research', position: 'left'},
         ...(ligneDeCreteUrl ? [{href: ligneDeCreteUrl, label: 'Ligne de Crête', position: 'right' as const}] : []),
       ],
@@ -40,7 +41,7 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {title: 'World Fabric', items: [{label: 'Research', to: '/research'}]},
+        {title: 'World Fabric', items: [{label: 'Research', to: '/research'}, {label: 'What to Build', to: '/interventions'}]},
       ],
       copyright: `World Fabric — stand-alone research project.`,
     },

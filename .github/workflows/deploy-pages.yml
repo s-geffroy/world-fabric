@@ -35,6 +35,10 @@ jobs:
       - name: Install
         working-directory: website
         run: npm install --no-audit --no-fund
+      - name: Install Python tooling
+        run: pip install -r requirements-dev.txt
+      - name: Validate registers against their schemas
+        run: python3 scripts/validate_records.py
       - name: Sync canonical research docs
         run: python3 scripts/sync_docs.py
       - name: Derive site data from canonical sources

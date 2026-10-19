@@ -39,3 +39,12 @@ Two items listed above are now closed.
 
 Still deliberately unresolved: the licence decision, and the absence of
 fabricated Middle Corridor pilot data.
+
+## Ligne de Crête kit — 2026-10-19
+
+The site now loads the shared Ligne de Crête kit
+(`https://www.ligne-de-crete.fr/kit/v1/ldc-kit.js`, `scripts` in
+`docusaurus.config.ts`), which adds a top bar and a signed footer linking to
+the entry page of this work. The navbar link driven by `LIGNE_DE_CRETE_URL`
+duplicated it and was removed, together with the variable in the workflow:
+the item above saying it is set there no longer applies.

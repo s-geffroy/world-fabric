@@ -7,6 +7,7 @@ const isUserSite = repositoryName === `${organizationName}.github.io`;
 const ligneDeCreteUrl = process.env.LIGNE_DE_CRETE_URL;
 
 const config: Config = {
+  scripts: [{src: 'https://www.ligne-de-crete.fr/kit/v1/ldc-kit.js', defer: true}],
   title: 'World Fabric',
   tagline: 'Observatory of Global Strategic Capacity',
   url: `https://${organizationName}.github.io`,

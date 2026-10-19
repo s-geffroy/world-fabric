@@ -17,10 +17,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      # docusaurus.config.ts n'ajoute le lien de retour que si la variable
-      # est posee : la fiche du travail est la porte d'entree cote vitrine.
-      LIGNE_DE_CRETE_URL: https://www.ligne-de-crete.fr/travaux/world-fabric/
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

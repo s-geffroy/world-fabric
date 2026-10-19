@@ -16,4 +16,4 @@ The included workflow uses the GitHub Pages artifact/action pattern. Repository 
 
 ## Ligne de Crête
 
-The public link to Ligne de Crête is intentionally supplied through the `LIGNE_DE_CRETE_URL` environment variable because the canonical URL was not fixed in the technical specification. This avoids inventing a domain.
+The link back to Ligne de Crête is not part of this site: the shared Ligne de Crête kit (`https://www.ligne-de-crete.fr/kit/v1/ldc-kit.js`, declared in `scripts` of `docusaurus.config.ts`) adds a top bar and a signed footer pointing to the entry page of this work.

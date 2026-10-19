@@ -4,7 +4,6 @@ import type * as Preset from '@docusaurus/preset-classic';
 const organizationName = process.env.GITHUB_REPOSITORY_OWNER ?? 'REPLACE_OWNER';
 const repositoryName = (process.env.GITHUB_REPOSITORY ?? 'REPLACE_OWNER/world-fabric').split('/')[1];
 const isUserSite = repositoryName === `${organizationName}.github.io`;
-const ligneDeCreteUrl = process.env.LIGNE_DE_CRETE_URL;
 
 const config: Config = {
   scripts: [{src: 'https://www.ligne-de-crete.fr/kit/v1/ldc-kit.js', defer: true}],
@@ -36,7 +35,6 @@ const config: Config = {
         {to: '/model', label: 'Understand the Model', position: 'left'},
         {to: '/interventions', label: 'What to Build', position: 'left'},
         {to: '/research', label: 'Inspect the Research', position: 'left'},
-        ...(ligneDeCreteUrl ? [{href: ligneDeCreteUrl, label: 'Ligne de Crête', position: 'right' as const}] : []),
       ],
     },
     footer: {

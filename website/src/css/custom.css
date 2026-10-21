@@ -118,3 +118,12 @@
   color: var(--wf-map-label);
   margin-bottom: 0.2rem;
 }
+
+/* Bandeau ligne de crête : le kit arrive après le premier affichage et
+   remplit <ldc-bandeau> (src/theme/SkipToContent). Sa hauteur (33 px) est
+   réservée tant que l'élément n'est pas défini, sinon toute la page
+   descendrait d'autant à son arrivée (CLS). */
+ldc-bandeau:not(:defined) {
+  display: block;
+  height: 33px;
+}
